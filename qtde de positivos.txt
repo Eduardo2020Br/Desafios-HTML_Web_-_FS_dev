@@ -1,0 +1,33 @@
+/*Desafio
+Crie um programa que leia 6 valores. Você poderá receber valores negativos e/ou positivos 
+como entrada, devendo desconsiderar os valores nulos. Em seguida, apresente a quantidade de 
+valores positivos digitados.
+
+Entrada
+Você receberá seis valores, negativos e/ou positivos.
+
+Saída
+Exiba uma mensagem dizendo quantos valores positivos foram lidos assim como é exibido abaixo
+ no exemplo de saída. Não esqueça da mensagem "valores positivos" ao final. */
+
+let valor1 = parseInt(gets());
+let valor2 = parseInt(gets());
+let valor3 = parseInt(gets());
+let valor4 = parseInt(gets());
+let valor5 = parseInt(gets());
+let valor6 = parseInt(gets());
+var NUMBER = 0;
+if (valor1>0) {
+  NUMBER++};
+if (valor2>0) {
+  NUMBER++};
+if (valor3>0) {
+  NUMBER++};
+if (valor4>0) {
+  NUMBER++};
+if (valor5>0) {
+  NUMBER++};
+if (valor6>0) {
+  NUMBER++};      // Digite aqui o calculo
+
+console.log(NUMBER + " valores positivos");
